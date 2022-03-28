@@ -2,13 +2,13 @@ import Head from 'next/head'
 
 export const Meta = (props) => {
   let { title } = props
-  const defaultTitle = 'PoolTogether - Community Pools'
+  const defaultTitle = 'Sharknado Prize Pools'
   title = title ? `${title} - ${defaultTitle}` : defaultTitle
 
-  const url = `https://community.pooltogether.com`
+  const url = `https://play.sharknado.io`
   const description = `View, deposit and withdraw for all V3 Pools`
   const keywords = 'ethereum'
-  const twitterHandle = '@PoolTogether_'
+  const twitterHandle = '@sharknadocoin'
 
   return (
     <>
@@ -25,7 +25,7 @@ export const Meta = (props) => {
         <meta name='theme-color' content='#1a083a' />
         <meta name='description' content={description} />
         <meta name='keywords' content={keywords} />
-        <meta name='author' content='PoolTogether' />
+        <meta name='author' content='Sharknado' />
 
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />
