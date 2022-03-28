@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "checkJs": true
+  },
+  "exclude": ["out", ".next", "abis", "yarn-error.log"]
+}
