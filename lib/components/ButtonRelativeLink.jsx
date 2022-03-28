@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import { omit } from 'lodash'
-import { ButtonLink, SquareLink } from '@pooltogether/react-components'
+import { ButtonLink, SquareLink } from '../../pack/react-components'
 
 import { useNetwork } from 'lib/hooks/useNetwork'
 import { usePrizePoolContracts } from 'lib/hooks/usePrizePoolContracts'
